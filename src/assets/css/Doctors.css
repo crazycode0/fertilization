@@ -1,0 +1,195 @@
+.css-19bkzgd {
+  background-color: #47e4e0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .css-19bkzgd {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.css-ru9m2u {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 64rem) {
+  .css-ru9m2u {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.css-85v1cg {
+  -webkit-flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
+  max-width: 100%;
+  gap: 1rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-85v1cg {
+    -webkit-flex: 1 0 calc(50% - 1rem);
+    -ms-flex: 1 0 calc(50% - 1rem);
+    flex: 1 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+    -webkit-align-items: initial;
+    -webkit-box-align: initial;
+    -ms-flex-align: initial;
+    align-items: initial;
+  }
+}
+
+.css-1wwjhkz {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1wwjhkz {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-1wwjhkz {
+    font-size: 2.25rem;
+  }
+}
+
+.css-16y6ixw {
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-16y6ixw {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-16y6ixw {
+    font-size: 1.25rem;
+  }
+}
+
+.css-1nkfhts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+   justify-content: center;
+  flex: 1 0 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1nkfhts {
+    -webkit-flex: 1 0 calc(50% - 1rem);
+    -ms-flex: 1 0 calc(50% - 1rem);
+    flex: 1 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-1nkfhts {
+   justify-content: end;
+  }
+}
+
+.css-1nkfhts a {
+   flex: 1 0 auto;
+  max-width: 100%;
+  position: relative;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1nkfhts a {
+    flex: 1 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+.css-1nkfhts img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 360px;
+}
+
+.css-1nkfhts .member-info-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+ flex-direction: column;
+   align-items: flex-start;
+  margin: 20px 16px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: #666;
+  padding: 0.5rem;
+}
+
+.css-1nkfhts .member-info-container h4 {
+  width: 100%;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.css-1nkfhts .member-info-container p {
+  font-size: 0.875rem;
+  margin: 0;
+}

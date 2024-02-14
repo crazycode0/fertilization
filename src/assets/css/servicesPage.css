@@ -1,0 +1,118 @@
+.css-k49fvq {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    max-width: 1124px;
+    margin: auto;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #666;
+}
+
+@media screen and (min-width: 52rem) {
+    .css-k49fvq {
+        font-size:1.75rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .css-k49fvq {
+        font-size:2.25rem;
+    }
+}
+.css-13vrc86 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+   flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.css-1y3hu58 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 1.5rem;
+}
+
+.css-1y3hu58 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.css-1y3hu58 .overlay {
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #47E4E0CC;
+}
+
+.css-1y3hu58 img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    object-fit: cover;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.css-1y3hu58 a {
+    max-width: 280px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 52rem) {
+    .css-1y3hu58 a {
+        font-size:1.125rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .css-1y3hu58 a {
+        font-size:1.25rem;
+    }
+}
+
+.css-1y3hu58 a>div {
+    position: relative;
+}
+
+.css-1y3hu58 a:hover img {
+    opacity: 0.3;
+}
+
+.css-1y3hu58 a:hover .overlay {
+    opacity: 1;
+}
+
+.css-1y3hu58 a:hover .link {
+    color: #343753;
+    padding: 16px 32px;
+}

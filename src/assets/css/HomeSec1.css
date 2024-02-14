@@ -1,0 +1,314 @@
+.sec1 {
+  padding: 1rem;
+  margin: auto;
+  display: flex;
+}
+
+@media screen and (min-width: 64rem) {
+  .sec1 {
+    padding: 4rem;
+  }
+}
+.sec1-inner {
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100%;
+  letter-spacing: 0.05rem;
+}
+@media screen and (max-width: 52rem) {
+  .sec1-inner {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+}
+.sec1-inner-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 100%;
+  max-width: 100%;
+  flex-direction: column;
+  background-color: #f7f2ed;
+  padding: 1.5rem;
+}
+@media screen and (min-width: 52rem) {
+  .sec1-inner-info {
+    flex: calc(33% - 1rem);
+    max-width: calc(33% - 1rem);
+  }
+}
+.sec1-inner-info-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 64px;
+  height: 64px;
+  background: #47e4e0;
+  border-radius: 50px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.icon-img {
+  width: auto;
+  height: 100%;
+}
+.sec1-inner-info-text h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 52rem) {
+  .sec1-inner-info-text h3 {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .sec1-inner-info-text h3 {
+    font-size: 1.25rem;
+  }
+}
+.sec1-inner-info-text p {
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.sec1-inner-info-text a {
+  color: #0688f6;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.sec1-inner-info-text a:hover {
+  color: #343753;
+}
+section {
+  display: block;
+}
+.sec-text {
+  background-color: #1d2939;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .sec-text {
+    background-color: #343753;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 96px;
+    padding-right: 96px;
+  }
+}
+.big-text {
+  font-size: 1.25rem;
+  padding: 3rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .big-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .big-text {
+    font-size: 1.75rem;
+    padding: 2.5rem;
+  }
+}
+
+.name-text {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .name-text {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .name-text {
+    font-size: 1.25rem;
+  }
+}
+
+/* the service sec */
+
+.css-1dirwo1 {
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1400px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.css-1bbcglu {
+  flex: 1 0 100%;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1bbcglu {
+    flex: 1 0 calc(30% - 1rem);
+    max-width: 1 0 calc(30% - 1rem);
+  }
+}
+
+.css-1xx2ad {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1xx2ad {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-1xx2ad {
+    font-size: 2.25rem;
+  }
+}
+
+.css-ynu2nb {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4d4f60;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-ynu2nb {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-ynu2nb {
+    font-size: 1.25rem;
+  }
+}
+
+.css-1jp5lic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1 0 100%;
+  max-width: 100%;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1jp5lic {
+    flex: 1 0 calc(70% - 1rem);
+    max-width: 1 0 calc(70% - 1rem);
+  }
+}
+
+.css-1jp5lic p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+.css-1jp5lic a {
+    color: #2e6d6a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+.css-1jp5lic .overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #47e4e0cc;
+}
+
+.css-1jp5lic a {
+  max-width: 350px;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1jp5lic a {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .css-1jp5lic a {
+    font-size: 1.25rem;
+  }
+}
+
+.css-1jp5lic a > div {
+  position: relative;
+}
+
+.css-1jp5lic img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  min-height: 280px;
+  max-height: 280px;
+  object-fit: cover;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.css-1jp5lic a:hover img {
+  opacity: 0.3;
+}
+
+.css-1jp5lic a:hover .overlay {
+  opacity: 1;
+}
+
+.css-1jp5lic a:hover .link {
+  color: #343753;
+  padding: 16px 32px;
+}

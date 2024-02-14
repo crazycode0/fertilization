@@ -1,0 +1,246 @@
+.css-1r5o31s {
+  background-color: rgb(71, 228, 224);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  scroll-margin-top: 100px;
+}
+.css-16lrxtm {
+  padding: 1rem;
+  max-width: 528px;
+  margin: auto;
+}
+@media screen and (min-width: 64rem) {
+  .css-16lrxtm {
+    padding: 2rem;
+    max-width: 576px;
+  }
+}
+
+.css-1ufkmvh {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.css-1vgd8uo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.css-16lrxtm label {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+@media screen and (min-width: 64rem) {
+  .css-16lrxtm label {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
+  .css-16lrxtm label {
+    font-size: 1.125rem;
+  }
+}
+
+.css-1vgd8uo input,
+.css-1vgd8uo textarea,
+.css-1vgd8uo select {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.css-142528k {
+  background: rgb(52, 55, 83);
+  max-width: 528px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+.css-17o5yxn {
+  all: unset;
+  box-sizing: border-box;
+  width: 100%;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.css-o0ub3t {
+  display: flex;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 3rem auto;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 64rem) {
+  .css-o0ub3t {
+    padding: 2rem;
+  }
+}
+.css-1wims16 {
+  flex: 1 0 100%;
+  max-width: 90%;
+  flex-wrap: wrap;
+  background-color: rgb(71, 228, 224);
+  padding: 20px;
+}
+@media screen and (min-width: 64rem) {
+  .css-1wims16 {
+    flex: 1 0 calc(40% - 1rem);
+    max-width: calc(40% - 1rem);
+    padding: 48px;
+  }
+}
+.css-99j6m4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+.css-1wwjhkz {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 64rem) {
+  .css-1wwjhkz {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .css-1wwjhkz {
+    font-size: 1.75rem;
+  }
+}
+.css-4feqh5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 64rem) {
+  .css-4feqh5 {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .css-4feqh5 {
+    font-size: 1.125rem;
+  }
+}
+.css-4feqh5 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.css-1ei6j21 {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+}
+.css-tkboi1 {
+  flex: 0 0 1.5rem;
+  font-size: 1.5rem;
+}
+.css-107pnfv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (min-width: 64rem) {
+  .css-1qo1civ {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .css-1qo1civ {
+    font-size: 1.5rem;
+  }
+}
+.css-1qo1civ {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.css-1ei6j21 {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  -webkit-box-align: baseline;
+  align-items: baseline;
+}
+.css-107pnfv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media screen and (min-width: 64rem) {
+  .css-1qo1civ {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 52rem) {
+  .css-1qo1civ {
+    font-size: 1.5rem;
+  }
+}
+
+.css-1qo1civ {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.link {
+  color: #000;
+}
+@media screen and (min-width: 64rem) {
+  .css-rgygsp {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 52rem) {
+  .css-rgygsp {
+    font-size: 1.5rem;
+  }
+}
+
+.css-rgygsp {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  gap: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.css-rgygsp a {
+  color: rgb(0, 0, 0);
+}
+@media screen and (min-width: 52rem) {
+  .css-ibbla4 {
+    flex: 1 0 calc(60% - 1rem);
+    max-width: calc(60% - 1rem);
+  }
+}
+
+.css-ibbla4 {
+  flex: 1 0 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.adj {
+  max-width: 100%;
+  }
+@media screen and (min-width: 52rem) {
+  .adj {
+    max-width: 50%;
+  }
+}
