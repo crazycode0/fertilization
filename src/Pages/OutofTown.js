@@ -21,10 +21,10 @@ const OutofTown = () => {
             </h1>
             <h3 class="css-dg08qt">
               Why do patients from outside of East Tennessee seek care here at
-              Rejoice Fertility?
+              ForestBloom Fertility?
             </h3>
             <h4 class="css-1d2nld">
-              Rejoice Fertility differs from the vast majority of IVF programs
+              ForestBloom Fertility differs from the vast majority of IVF programs
               in the United States in many ways, which explains why patients
               elect to pursue care here even when they live close to IVF
               clinics.
@@ -67,7 +67,7 @@ const OutofTown = () => {
             </p>
             <h4>4. We do not offer Preimplantation Genetic Testing (PGT)</h4>
             <p>
-              Surprisingly, some patients seek care at Rejoice Fertility as a
+              Surprisingly, some patients seek care at ForestBloom Fertility as a
               result of what we do not offer. PGT involves the removal of cells
               from an embryo at the blastocyst stage of development. The cells
               come from the portion of the embryo destined to become the
@@ -86,17 +86,17 @@ const OutofTown = () => {
               of the Great Smoky Mountains National Park.
             </p>
             <h3>
-              If we are interested in doing IVF at Rejoice Fertility, how do we
+              If we are interested in doing IVF at ForestBloom Fertility, how do we
               start?
             </h3>
             <p>
               One of the best ways is to sign up for a free consultation with
               Dr. Gordon. During this 15-minute telemedicine consult, Dr. Gordon
               can discuss your particular situation and whether it makes sense
-              for you to consider pursuing IVF here at Rejoice.
+              for you to consider pursuing IVF here at ForestBloom.
             </p>
             <h3>
-              OK, we are sold on the idea of working with Rejoice. Now what?
+              OK, we are sold on the idea of working with ForestBloom. Now what?
             </h3>
             <p>
               The next step is to arrange for either an official telemedicine

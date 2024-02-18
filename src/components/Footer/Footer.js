@@ -1,15 +1,18 @@
 import React from "react";
 import logo from "../../assets/img/logo_footer.png";
+import logo1 from "../../assets/img/forest-logo.png";
 import "../../assets/css/Footer.css"
 
 const Footer = () => {
+
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer className="css-pfxmyq">
         <div className="css-e16ze8">
           <div className="css-ftt37h">
             <img
-              src={logo}
+              src={logo1}
               width="224px"
               alt=""
             />
@@ -58,7 +61,7 @@ const Footer = () => {
         </div>
         <div className="css-dcxl3h">
           <p className="css-7q7zfx">
-            © 2024 Rejoice Fertility. All rights reserved.
+            © {currentYear} ForestBloom Fertility. All rights reserved.
           </p>
           <div className="css-1uhfiis">
             <a

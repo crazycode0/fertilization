@@ -23,7 +23,7 @@ const staffs = [
       name: 'John David Gordon, M.D.',
       role: 'Medical Director',
       info:      "<h4>BIO:</h4>" +
-      "<p>Before joining Rejoice Fertility in August 2019, Dr. John David Gordon served as Co-Director of Dominion Fertility in Arlington, VA since 1999. Over those 2 decades he was listed as one of Washington’s top doctors in Washingtonian, Northern Virginia and Arlington magazines.</p>" +
+      "<p>Before joining ForestBloom Fertility in August 2019, Dr. John David Gordon served as Co-Director of Dominion Fertility in Arlington, VA since 1999. Over those 2 decades he was listed as one of Washington’s top doctors in Washingtonian, Northern Virginia and Arlington magazines.</p>" +
       "<p>Dr. Gordon graduated summa-cum-laude from Princeton University with a degree in Biology and then attended medical school at Duke University. He was an intern in Obstetrics and Gynecology at the University of Texas Health Sciences Center in Houston and then completed his residency training in Obstetrics and Gynecology at Stanford University Medical Center and his fellowship in Reproductive Endocrinology and Infertility at the University of California San Francisco.</p>" +
       "<p>Dr. Gordon is board-certified in Obstetrics and Gynecology and subspecialty board certified in Reproductive Endocrinology and Infertility. Dr. Gordon was a Clinical Professor of Obstetrics and Gynecology at The George Washington University in Washington D.C. and an Associate Clinical Professor at Virginia Commonwealth University / Medical College of Virginia Fairfax Campus. He served as the Division Director of Reproductive Endocrinology and Infertility at Inova Fairfax Hospital.</p>" +
       "<p>Dr. Gordon has a passion for teaching and serves as Division Director of Reproductive Endocrinology and Infertility at the University of Tennessee Medical Center. As a professor, he has provided regular lectures in Reproductive Endocrinology to the Obstetrics and Gynecology interns, residents, and medical students. Dr. Gordon is the author of many scientific articles and several books but he is best known to health professionals as the Editor-in-Chief of “Obstetrics, Gynecology, and Infertility,” a best-selling medical handbook with over 150,000 copies in print. This handbook is used worldwide by medical students, residents, physicians, and women’s health care providers.</p>" +
@@ -76,7 +76,7 @@ const staffs = [
         name: 'Jeffrey Keenan, M.D., HCLD',
         role: 'Reproductive Endocrinologis',
         info:  `<h4>BIO:</h4>
-        <p>Dr. Jeffrey Keenan has many decades of experience treating infertility and is a Rejoice Fertility physician and the President and Medical Director of the National Embryo Donation Center (NEDC) in Knoxville, Tennessee. This non-profit is the nation’s leading organization focusing on embryo donation and embryo adoption.</p>
+        <p>Dr. Jeffrey Keenan has many decades of experience treating infertility and is a ForestBloom Fertility physician and the President and Medical Director of the National Embryo Donation Center (NEDC) in Knoxville, Tennessee. This non-profit is the nation’s leading organization focusing on embryo donation and embryo adoption.</p>
         <p>Keenan attended Bucknell University in Lewisburg, Pennsylvania, graduating in 1979. Keenan then decided to pursue a career in medicine at Jefferson Medical College in Philadelphia, Pennsylvania. Upon receiving his medical degree with honors in 1983, Keenan interned at Mercy Hospital in Pittsburgh, Pennsylvania. After his internship, he completed his residency in Obstetrics and Gynecology at Vanderbilt University Medical Center in Nashville, Tennessee. His interest in reproductive medicine caused him to further specialize in this field. As a result, Keenan took up a fellowship in 1988 at Wayne State University where he focused on Reproductive Endocrinology and Infertility</p>
         <p>Upon completion of his fellowship in 1990, Keenan became an active member of several professional medical societies, including the American College of Obstetricians and Gynecologists (ACOG) and the American Society for Reproductive Medicine (ASRM). In addition, he is a current member of the Society for Reproductive Endocrinology and Infertility (SREI) and the Christian Medical and Dental Associations (CMDA). He also served as President of the East Tennessee OB/GYN Society from 1996-1997.</p>
         <p>Keenan is board certified in both Obstetrics and Gynecology and Reproductive Endocrinology and Infertility. Along with holding several certifications in his specialty fields, Keenan is an accomplished author, having written several book chapters and numerous articles published.</p>
@@ -207,7 +207,7 @@ const AboutUs = () => {
       </section>
       <div class="css-972f7l">
         <p>
-          Welcome to Rejoice Fertility. My name is Dr. John David Gordon, and I
+          Welcome to ForestBloom Fertility. My name is Dr. John David Gordon, and I
           am so happy to tell you about what sets our practice apart. I am very
           excited about what God has in store for us here in Knoxville.
         </p>
@@ -294,7 +294,7 @@ const AboutUs = () => {
           built just behind our current office. With the upcoming move to the
           new office I thought that the time was right for a rebranding; hence,
           the decision to change the name of the practice from Southeastern
-          Fertility to Rejoice Fertility.
+          Fertility to ForestBloom Fertility.
         </p>
         <p>
           I am looking forward to serving the needs of our patients in this
@@ -304,7 +304,7 @@ const AboutUs = () => {
           we are told in the Scriptures.
         </p>
         <p>
-          Come experience a different type of fertility practice…We rejoice in
+          Come experience a different type of fertility practice…We ForestBloom in
           that difference!
           <br />- John David Gordon, MD
           <br />
@@ -312,7 +312,7 @@ const AboutUs = () => {
         </p>
         <p>
           <i>
-            "Rejoice in the Lord always; again, I will say, rejoice. Let your
+            "ForestBloom in the Lord always; again, I will say, ForestBloom. Let your
             reasonableness be known to everyone. The Lord is at hand; do not be
             anxious about anything, but in everything, by prayer and
             supplication with thanksgiving, let your requests be made known to

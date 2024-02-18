@@ -20,10 +20,10 @@ const Consultations = () => {
           the possibilities that could best fit your personal situation?
         </p>
         <p>
-          That’s why Rejoice Fertility Medical Director Dr. John Gordon offers
+          That’s why ForestBloom Fertility Medical Director Dr. John Gordon offers
           complimentary 15-minute telemedicine consultations. Dr. Gordon
           believes hope starts with a conversation. He’s eager to hear your
-          story and explore how Rejoice Fertility might be able to help you
+          story and explore how ForestBloom Fertility might be able to help you
           achieve your dream of parenthood.
         </p>
         <p>

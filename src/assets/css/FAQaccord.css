@@ -1,0 +1,80 @@
+.que-accord {
+  background: rgb(71, 228, 224);
+  margin-top: 3rem;
+  padding: 32px 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+}
+
+.css-4kjhbf {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-4kjhbf {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .css-4kjhbf {
+    font-size: 2.25rem;
+  }
+}
+.css-11f06mp {
+  display: flex;
+  gap: 1rem;
+}
+.css-zrc6a9 {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.css-ou388v {
+  color: black;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-ou388v {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .css-ou388v {
+    font-size: 1.75rem;
+  }
+}
+
+.css-gzjc9s {
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 0px 0px 0.25rem 0.25rem;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 52rem) {
+  .css-gzjc9s {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  .css-gzjc9s {
+    font-size: 1.25rem;
+  }
+  .con {
+    width: 80%;
+}
+}
+

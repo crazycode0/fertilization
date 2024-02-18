@@ -63,7 +63,7 @@ const ContactUs = () => {
           </div>
           <div class="css-rgygsp">
             <a
-              href="https://twitter.com/RejoiceIVF"
+              href="https://twitter.com/ForestBloomIVF"
               target="_blank"
               rel="noopener noreferrer"
               title="Follow us on Twitter"
@@ -81,7 +81,7 @@ const ContactUs = () => {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/RejoiceFertility/"
+              href="https://www.facebook.com/ForestBloomFertility/"
               target="_blank"
               rel="noopener noreferrer"
               title="Follow us on Facebook"
@@ -99,7 +99,7 @@ const ContactUs = () => {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/rejoiceivf/"
+              href="https://www.instagram.com/ForestBloomivf/"
               target="_blank"
               rel="noopener noreferrer"
               title="Follow us on Instagram"
@@ -117,7 +117,7 @@ const ContactUs = () => {
               </svg>
             </a>
             <a
-              href="https://www.youtube.com/@rejoicefertility"
+              href="https://www.youtube.com/@ForestBloomfertility"
               target="_blank"
               rel="noopener noreferrer"
               title="Follow us on Youtube"

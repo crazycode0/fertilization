@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import logo from "../../assets/img/brand_logo.png";
+import logo1 from "../../assets/img/forest-logo.png";
 import "../../assets/css/Navbar.css";
 
 const Navbar = () => {
@@ -50,7 +51,7 @@ const Navbar = () => {
         <div className="left-section ">
           <div className="logo">
             <a href="/" className="nav-logo">
-              <img src={logo} alt="tracking app logo" />
+              <img src={logo1} alt="tracking app logo" />
             </a>
           </div>
         </div>
@@ -80,30 +81,30 @@ const Navbar = () => {
               </a>
               {isDropdownOpen && (
             <div className="dropdown-menu">
-              <a href="#" className="dropdown-item nav-link">Diagnosis & Testing</a>
-              <a href="#" className="dropdown-item nav-link">Fertility Treatment: Non-IVF</a>
-              <a href="#" className="dropdown-item nav-link">IVF</a>
-              <a href="#" className="dropdown-item nav-link">Embryo Adoption</a>
+              <a href="/services/diagnosis-and-testing" className="dropdown-item nav-link">Diagnosis & Testing</a>
+              <a href="/services/fertility-treatment-and-non-ivf" className="dropdown-item nav-link">Fertility Treatment: Non-IVF</a>
+              <a href="/services/ivf" className="dropdown-item nav-link">IVF</a>
+              <a href="/services/embryo-adoption" className="dropdown-item nav-link">Embryo Adoption</a>
             </div>
           )}
             </li>
             <li className="nav-item mob-drop">
-              <a href="/" className="nav-link">
+              <a href="/services/diagnosis-and-testing" className="nav-link">
               Diagnosis & Testing
               </a>
             </li>
             <li className="nav-item mob-drop">
-              <a href="/" className="nav-link">
+              <a href="/services/fertility-treatment-and-non-ivf" className="nav-link">
               Fertility Treatment: Non-IVF
               </a>
             </li>
             <li className="nav-item mob-drop">
-              <a href="/" className="nav-link">
+              <a href="/services/ivf" className="nav-link">
               IVF
               </a>
             </li>
             <li className="nav-item mob-drop">
-              <a href="/" className="nav-link">
+              <a href="/services/embryo-adoption" className="nav-link">
               Embryo Adoption
               </a>
             </li>

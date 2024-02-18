@@ -24,7 +24,7 @@ const HomeSec1 = () => {
             <div className="sec1-inner-info-text">
               <h3> HOW can we help</h3>
               <p>
-                Learn more about the services and procedures offered at Rejoice
+                Learn more about the services and procedures offered at ForestBloom
                 Fertility.
               </p>
               <a href="/services">
@@ -41,7 +41,7 @@ const HomeSec1 = () => {
               <h3>WHERE do you start?</h3>
               <p>
                 Take your first steps in becoming a patient and find out more
-                about Rejoice Fertility.
+                about ForestBloom Fertility.
               </p>
               <a href="/services">
                 {" "}
@@ -56,7 +56,7 @@ const HomeSec1 = () => {
             <div className="sec1-inner-info-text">
               <h3>WHO will take care of you?</h3>
               <p>
-                Find out more about the team at Rejoice Fertility and our
+                Find out more about the team at ForestBloom Fertility and our
                 philosophy of patient care.
               </p>
               <a href="/services">
@@ -83,7 +83,7 @@ const HomeSec1 = () => {
           <div className="css-1bbcglu">
             <h2 className="css-1xx2ad">How Can We Help?</h2>
             <p className="css-ynu2nb">
-              Learn more about the options offered at Rejoice Fertility.
+              Learn more about the options offered at ForestBloom Fertility.
             </p>
           </div>
           <div className="css-1jp5lic">

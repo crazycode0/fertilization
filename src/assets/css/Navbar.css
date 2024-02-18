@@ -152,6 +152,9 @@
     .right-section {
       display: none;
     }
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: none;
+    }
     
     .nav-menu {
       position: fixed;    

@@ -13,7 +13,7 @@ const Header = () => {
       <div className="hero-txt">
         <h1 class="hero-txt-h1">Hope Starts With a Conversation</h1>
         <p class="hero-txt-p">
-          Rejoice Fertility is committed to providing comprehensive care with
+          ForestBloom Fertility is committed to providing comprehensive care with
           unwavering compassion
         </p>{" "}
         <div class="hero-txt-but">
