@@ -5,8 +5,10 @@ import outOfTown_pic from "../assets/img/out-of-town-patients.png";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer/Footer";
 import "../assets/css/Consul.css";
-import stm1 from "../assets/img/mini-stim.png";
-import stm2 from "../assets/img/mini-stim-2.png";
+
+import cheney from "../assets/img/cheney.png";
+import cheney1 from "../assets/img/cheney1.png";
+
 
 const OutofTown = () => {
   return (
@@ -20,14 +22,14 @@ const OutofTown = () => {
               Out-of-Town Patients General Information
             </h1>
             <h3 class="css-dg08qt">
-              Why do patients from outside of East Tennessee seek care here at
+              Why do patients from outside of Cheney, WA seek care here at
               ForestBloom Fertility?
             </h3>
             <h4 class="css-1d2nld">
-              ForestBloom Fertility differs from the vast majority of IVF programs
-              in the United States in many ways, which explains why patients
-              elect to pursue care here even when they live close to IVF
-              clinics.
+              ForestBloom Fertility differs from the vast majority of IVF
+              programs in the United States in many ways, which explains why
+              patients elect to pursue care here even when they live close to
+              IVF clinics.
             </h4>
           </div>
           <div class="css-1ma61i3">
@@ -67,10 +69,10 @@ const OutofTown = () => {
             </p>
             <h4>4. We do not offer Preimplantation Genetic Testing (PGT)</h4>
             <p>
-              Surprisingly, some patients seek care at ForestBloom Fertility as a
-              result of what we do not offer. PGT involves the removal of cells
-              from an embryo at the blastocyst stage of development. The cells
-              come from the portion of the embryo destined to become the
+              Surprisingly, some patients seek care at ForestBloom Fertility as
+              a result of what we do not offer. PGT involves the removal of
+              cells from an embryo at the blastocyst stage of development. The
+              cells come from the portion of the embryo destined to become the
               placenta. These cells are sent to a genetic testing laboratory and
               the embryo is then frozen, awaiting the result of the testing. The
               unresolved issues regarding PGT include potential damage to the
@@ -79,47 +81,32 @@ const OutofTown = () => {
               morally problematic issues such as sex selection (a couple chooses
               to discard all male embryos because they only desire a daughter).
             </p>
-            <p>
-              Of course, there are other reasons that patients from out of town
-              seek care with us, including the opportunity to meet Nurse Lynda
-              of Facebook Friday fame in person and to enjoy the natural beauty
-              of the Great Smoky Mountains National Park.
-            </p>
+
             <h3>
-              If we are interested in doing IVF at ForestBloom Fertility, how do we
-              start?
+              If we are interested in doing IVF at ForestBloom Fertility, how do
+              we start?
             </h3>
             <p>
               One of the best ways is to sign up for a free consultation with
-              Dr. Gordon. During this 15-minute telemedicine consult, Dr. Gordon
-              can discuss your particular situation and whether it makes sense
-              for you to consider pursuing IVF here at ForestBloom.
+              us. During this 15-minute telemedicine consult, We can discuss
+              your particular situation and whether it makes sense for you to
+              consider pursuing IVF here at ForestBloom.
             </p>
             <h3>
               OK, we are sold on the idea of working with ForestBloom. Now what?
             </h3>
             <p>
               The next step is to arrange for either an official telemedicine
-              consultation followed by an in-person visit to Knoxville or just
-              schedule an in-person visit to Knoxville.
+              consultation followed by an in-person visit to Cheney or just
+              schedule an in-person visit to Cheney.
             </p>
-            <h3>Why do we need to come to Knoxville for evaluation?</h3>
+            <h3>Why do we need to come to Cheney for evaluation?</h3>
             <p>
-              Patients pursuing IVF need to undergo some specific tests
-              including vaginal ultrasound, a trial embryo transfer (also called
-              a mock transfer or a cervical check), and a saline infused
-              sonogram (also called a water sono) to make sure that there are no
-              fibroids or polyps in the uterine cavity. If you have recently
-              (within 6 months) had this last test, then we can sometimes defer
-              a repeat test if the regular sonogram looks good. The ultrasound
-              is needed to ensure that your ovaries can be easily visualized for
-              monitoring and for performing an egg collection. The ultrasound is
-              also beneficial for determining your Mini Stim protocol, which may
-              be adjusted based on your Antral Follicle Count and your anti
-              Mullerian hormone (AMH) level.
+            Patients pursuing IVF need to undergo some specific tests including vaginal ultrasound, a trial embryo transfer (also called a mock transfer or a cervical check), and a saline infused sonogram (also called a water sono) to make sure that there are no fibroids or polyps in the uterine cavity. If you have recently (within 6 months) had this last test, then we can sometimes defer a repeat test if the regular sonogram looks good. The ultrasound is needed to ensure that your ovaries can be easily visualized for monitoring and for performing an egg collection. The ultrasound is also beneficial for determining your Mini Stim protocol, which may be adjusted based on your Antral Follicle Count and your anti Mullerian hormone (AMH) level.
+
             </p>
             <h3>
-              Do we need to come to Knoxville for evaluation at a particular
+              Do we need to come to Cheney for evaluation at a particular
               time in my cycle?
             </h3>
             <p>
@@ -142,14 +129,14 @@ const OutofTown = () => {
               some final decisions regarding how many eggs are to be fertilized
               and whether extra eggs will be frozen or discarded. At this time
               you will go over the consent forms, which will need to be signed
-              and notarized before you send them back to us here in Knoxville.
+              and notarized before you send them back to us here in Cheney.
             </p>
-            <h3>How many days will we need to be in Knoxville?</h3>
+            <h3>How many days will we need to be in Cheney?</h3>
             <p>
               A typical NC IVF and Mini Stim IVF cycle are detailed below. Since
               we batch our IVF patients, you may need to take birth control
               pills or other medications to allow us to align your cycle with
-              the clinic schedule. You will need to be in Knoxville for
+              the clinic schedule. You will need to be in Cheney for
               ultrasound monitoring starting on day 7-8 depending on your
               protocol. Most patients take the hCG trigger shot on day 12 or so.
               A trigger on day 12 means an egg retrieval on day 14. Day 3 embryo
@@ -164,35 +151,10 @@ const OutofTown = () => {
       </section>
       <div className="css-16kt95j">
         <h2 className="css-2i8qd6">Mini-Stim IVF Schedule</h2>
-        <img src={stm1} alt="" />
-        <img src={stm2} alt="" />
+        <img src={cheney} alt="" />
+        <img src={cheney1} alt="" />
       </div>
-      <div className="css-rcjjc4">
-        <h3>Getting to Knoxville</h3>
-        <p>
-          Although many patients drive to Knoxville, for some, flying makes more
-          sense. Allegiant flies several non stops to Knoxville ’s McGhee Tyson
-          Airport. Delta and American also serve Knoxville with most flights
-          connecting through Charlotte or Atlanta. Speaking of Atlanta, we are
-          3.5 hours from Atlanta, so some patients choose to drive from Atlanta
-          to Knoxville. Fans of Southwest Airlines (like Dr. Gordon) drive to
-          the Nashville airport, which is an easy 2.5 hours drive on I-40
-          heading west from our office.
-        </p>
-        <h3>Staying in Knoxville</h3>
-        <p>
-          Many patients planning on staying over a week seek out rentals on
-          Airbnb and Vrbo. We have discounted rates available at the Staybridge
-          Suites and Hampton Inn located in the Turkey Creek shopping district,
-          which is just 5 minutes from our office.
-        </p>
-        <h3>Playing in Knoxville</h3>
-        <p>
-          In addition to Dollywood and the Great Smoky Mountains National Park,
-          there is no lack of fun activities to explore during your time here in
-          Knoxville.
-        </p>
-      </div>
+
       <Cta />
       <Footer />
     </>
