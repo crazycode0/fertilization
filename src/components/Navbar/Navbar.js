@@ -124,6 +124,11 @@ const Navbar = () => {
                 Out-of-Town Patients
               </a>
             </li>
+            <li className="nav-item">
+              <a href="/testimony" className="nav-link">
+                Testimony
+              </a>
+            </li>
             
           </ul>
           <div
