@@ -39,7 +39,7 @@ const Doctors = () => {
                     </svg>
                   </span>
                 </h4>
-                <p>MD</p>
+                
               </div>
             </a>
             <a href="/about-us">
@@ -64,7 +64,7 @@ const Doctors = () => {
                     </svg>
                   </span>
                 </h4>
-                <p>MD, HCLD</p>
+                
               </div>
             </a>
           </div>

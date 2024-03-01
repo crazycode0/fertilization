@@ -127,7 +127,16 @@ const Navbar = () => {
             <li className="nav-item">
               <a href="/testimony" className="nav-link">
                 Testimony
-              </a>
+              </a>              
+            </li>
+            <li className="nav-item prod">
+            <a
+                title="Request Appointment"
+                className="css-1xnqutw"
+                href="/contact-us"
+              >
+                Sign Up
+              </a>             
             </li>
             
           </ul>

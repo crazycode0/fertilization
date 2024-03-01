@@ -208,4 +208,27 @@
       }
 
   }
+
+  .prod a {
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    display: inline-block;
+    border-radius: 8px;
+    min-width: 120px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .css-1xnqutw {
+    background: #47e4e0;
+    color: #000;
+  }
+  
+  .css-1xnqutw:hover {
+    opacity: 0.75;
+  }
   

@@ -24,8 +24,8 @@ const HomeSec1 = () => {
             <div className="sec1-inner-info-text">
               <h3> HOW can we help</h3>
               <p>
-                Learn more about the services and procedures offered at ForestBloom
-                Fertility.
+                Learn more about the services and procedures offered at
+                ForestBloom Fertility.
               </p>
               <a href="/services">
                 {" "}
@@ -71,9 +71,9 @@ const HomeSec1 = () => {
         <div className="sec-text">
           <img src={quote} alt="quote" />
           <p className="big-text">
-            Very Supportive! Dr Keenan and nurse Mari were kind and supportive
+            Very Supportive! ForestBloom Fertility were kind and supportive
             during this time in our journey. We have highly recommended this
-            team to others struggling with fertility.
+            team to others struggling with fertility.
           </p>
           <p className="name-text">- Mia S.</p>
         </div>
