@@ -133,7 +133,7 @@ const Navbar = () => {
             <a
                 title="Request Appointment"
                 className="css-1xnqutw"
-                href="/contact-us"
+                href="/getting-started"
               >
                 Sign Up
               </a>             

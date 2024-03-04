@@ -16,6 +16,7 @@ import Blog from "./Pages/Blog";
 import TJmegan from "./Pages/Blogs/TJmegan";
 import KeithStory from "./Pages/Blogs/KeithStory";
 import EverybodyStory from "./Pages/Blogs/EverybodyStory";
+import SignUp from "./Pages/SignUp";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/services" element={<Service />}/>
         <Route path="/free-consultations" element={<Consultations />}/>
         <Route path="/testimony" element={<Blog />}/>
+        <Route path="/getting-started" element={<SignUp />} />
         {/* <Route path="/pricing" element={<Pricing />}/> */}
         <Route path="/out-of-town-patients" element={<OutofTown />}/>
         <Route path="/services/diagnosis-and-testing" element={<DiagTest />}/>

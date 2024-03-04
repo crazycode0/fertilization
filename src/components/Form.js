@@ -1,14 +1,7 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
-import { db, storage } from "../util/firebase";
-import { collection, addDoc } from "firebase/firestore";
-import firebase from "firebase/compat/app";
 import "../assets/css/Form.css";
-import { serverTimestamp } from "firebase/firestore";
-import { ref, uploadBytes } from "firebase/storage";
 
 const Form = () => {
-  const [imageUpload, setImageUpload] = useState(null);
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -36,48 +29,9 @@ const Form = () => {
     setMessage(message);
   };
 
-  const selectedImage = (e) => {
-    e.preventDefault();
-    setImageUpload(e.target.files[0]);
-  };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const uniqueID = uuidv4();
-    const imageURL = `/images/${uniqueID}/${imageUpload.name}`;
-
-    console.log(firebase.firestore);
-
-    try {
-      const formData = {
-        email: email,
-        first_name: firstName,
-        last_name: lastName,
-        phone: phone,
-        message: message,
-        image_url: imageURL,
-        timestamp: serverTimestamp(),
-      };
-      console.log(formData);
-
-      const docRef = await addDoc(collection(db, "fert-data"), formData);
-      //console.log("Document written with ID: ", docRef.id);
-      //console.log("Uploading Data to firestore: \n", docRef);
-
-      //Upload image to Firebase Storage
-      const storageRef = ref(storage, imageURL);
-      await uploadBytes(storageRef, imageUpload);
-      // console.log('Uploading Image to Storage: \n', imageURL);
-
-      // Reset form fields
-      setFirstName("");
-      setLastName("");
-      setEmail("");
-      setPhone("");
-      setMessage("");
-      setImageUpload(null);
-    } catch (error) {
-      console.error("Error uploading data:", error);
-    }
+   
   };
 
   return (
@@ -148,15 +102,12 @@ const Form = () => {
                     onChange={onChangeMessage}
                   />
                 </label>
-                {/* <label htmlFor="picture">
-                  Upload picture
-                  <input type="file" name="picture" onChange={selectedImage} />
-                </label> */}
+               
                 <div className="css-142528k">
                   <button
                     // type="submit"
                      className="css-17o5yxn"
-                    // onClick={handleSubmit}
+                    onClick={handleSubmit}
                   >
                     Submit
                   </button>
