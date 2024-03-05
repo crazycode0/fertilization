@@ -7,6 +7,7 @@ import "../assets/css/Form.css";
 import { serverTimestamp } from "firebase/firestore";
 import { ref, uploadBytes } from "firebase/storage";
 
+
 const CollectForm = () => {
   const [showModal, setShowModal] = useState(false);
   const [imageUpload, setImageUpload] = useState(null);
@@ -34,7 +35,7 @@ const CollectForm = () => {
   useEffect(() => {
     document.addEventListener("mousedown", handleOutsideClick);
     return () => {
-        document.removeEventListener("mousedown", handleSubmit);
+      document.removeEventListener("mousedown", handleSubmit);
     };
   }, []);
 
@@ -146,13 +147,26 @@ const CollectForm = () => {
                     onChange={onChangeMobile}
                   />
                 </label>
+                <div>
+                  <span>please fill the following forms</span>
+                  <p><a href="/Patient-Information-Sheet.pdf" download>Patience Information Form</a></p>
+                  <p><a href="/Patient-Registration-Agreement.pdf" download>Patience Registration Agreement</a></p>
+                </div>
+                <label htmlFor="information">
+                  Patience Information
+                  <input type="file" name="picture" />
+                </label>
+                <label htmlFor="agreement">
+                  Patience Registration Agreement
+                  <input type="file" name="picture" />
+                </label>
                 <label htmlFor="context">
                   Select the Approved Government Issued ID
                   <select name="context">
                     <option value="">Choose one</option>
                     <option value="driverLicense">Driver's License</option>
                     <option value="passport">Passport</option>
-                    <option value="military">Military ID Card</option>
+                    <option value="military">Military ID Card</option>  
                   </select>
                 </label>
                 <label htmlFor="picture">
@@ -168,7 +182,7 @@ const CollectForm = () => {
                     onChange={onChangeMessage}
                   />
                 </label>
-                
+
                 <div className="css-142528k">
                   <button
                     // type="submit"
@@ -182,20 +196,17 @@ const CollectForm = () => {
             </div>
           </form>
         </div>
-        
       </section>
       {showModal && (
-          <div className="modal">
-            <div className="modal-content">
-              <span className="close" onClick={handleCloseModal}>
-                &times;
-              </span>
-              <p>
-                Thanks for filling the form we would get back to you shortly
-              </p>
-            </div>
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={handleCloseModal}>
+              &times;
+            </span>
+            <p>Thanks for filling the form we would get back to you shortly</p>
           </div>
-        )}
+        </div>
+      )}
     </>
   );
 };
