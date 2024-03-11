@@ -54,6 +54,10 @@
   border-radius: 0.5rem;
 }
 .css-142528k {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   background: rgb(52, 55, 83);
   max-width: 528px;
   text-align: center;
@@ -61,6 +65,11 @@
   margin-top: 1.5rem;
   color: white;
   transition: all 0.3s ease 0s;
+}
+.alinn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .css-17o5yxn {
   all: unset;
