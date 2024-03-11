@@ -1,7 +1,6 @@
-import React, { useEffect, useRef, useState, CSSProperties } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { db, storage } from "../util/firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { storage } from "../util/firebase";
 import firebase from "firebase/compat/app";
 import "../assets/css/Form.css";
 import { serverTimestamp } from "firebase/firestore";
@@ -49,7 +48,7 @@ const CollectForm = () => {
     return () => {
       document.removeEventListener("mousedown", handleSubmit);
     };
-  }, []);
+  },[]);
 
   const onChangeFirstName = (e) => {
     const firstName = e.target.value;
@@ -106,10 +105,7 @@ const CollectForm = () => {
       };
       console.log(formData);
 
-      const docRef = await addDoc(collection(db, "fert-data"), formData);
-      //console.log("Document written with ID: ", docRef.id);
-      //console.log("Uploading Data to firestore: \n", docRef);
-
+      
       //Upload image to Firebase Storage
       const storageRef = ref(storage, imageURL);
       await uploadBytes(storageRef, imageUpload);
@@ -138,7 +134,7 @@ const CollectForm = () => {
     <>
       <section id="form-section" className={showModal ? "blur" : "css-1r5o31s"}>
         <div className="css-16lrxtm" ref={modalRef}>
-          <form >
+          <form onSubmit={handleSubmit}>
             <div className="css-1ufkmvh">
               <div className="css-1vgd8uo">
                 <label htmlFor="first_name">
